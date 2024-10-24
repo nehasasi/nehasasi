@@ -1,0 +1,857 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Two Years Already</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            font-family: Cursive, Lucida;
+        }
+
+        .navbar {
+            background-color: #3c1421;
+            padding: 15px;
+            border-radius: 5px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .navbar-brand {
+            color: white !important;
+            text-decoration: none;
+            font-size: 22px;
+        }
+
+        .full-screen-image {
+            position: relative;
+            width: 100vw;
+            height: calc(100vh - 80px);
+            background-image: url("images/Roses.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            margin-top: -10px;
+        }
+
+        .centered-text {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #811453;
+            font-size: 45px;
+            text-align: center;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            margin-bottom: 10px;
+        }
+
+        .centered-text-2 {
+            position: absolute;
+            top: 58%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #811453;
+            font-size: 20px;
+            text-align: center;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        .footer {
+            background-color: #3c1421;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            position: relative;
+        }
+
+        .journey-bar {
+            color: #3c1421;
+            text-align: center;
+            padding: 10px;
+            font-size: 30px;
+            margin-top: 0px;
+        }
+
+        .timeline {
+            padding: 50px 0;
+        }
+
+        .card {
+            margin-bottom: 20px;
+            height: auto;
+            padding: 20px;
+            border: 5px solid #3c1421;
+            border-radius: 5px;
+        }
+
+        .card-img-top {
+            height: 600px;
+            width: 100%;
+            object-fit: cover;
+        }
+
+        .card-text {
+            overflow: visible;
+        }
+
+        .scroll-to-top {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background-color: #3c1421;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            text-align: center;
+            line-height: 50px;
+            font-size: 24px;
+            text-decoration: none;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+            display: none;
+            z-index: 1000;
+        }
+
+        .scroll-to-top:hover {
+            background-color: white;
+            text-decoration: none;
+        }
+
+        .video-item {
+            flex: 0 0 auto;
+            margin-right: 15px;
+            scroll-snap-align: start;
+            text-align: center;
+        }
+
+        .video-item video {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .video-scroll {
+            display: flex;
+            overflow-x: auto;
+            scroll-snap-type: x mandatory;
+        }
+
+        .description {
+            margin-top: 10px;
+        }
+
+        video:fullscreen {
+            width: auto;
+            height: auto;
+            max-width: 100vw;
+            max-height: 100vh;
+            margin: auto;
+            object-fit: contain;
+        }
+
+
+        .bar {
+            padding: 15px;
+            text-align: center;
+        }
+
+        .btn {
+            background-color: #3c1421;
+            /* White background for the button */
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: white;
+            /* Green text */
+            text-decoration: none;
+            /* Remove underline */
+        }
+
+        .journey-bar {
+            color: #3c1421;
+            padding: 20px;
+            text-align: center;
+            border-radius: 5px;
+        }
+
+        .video-gallery {
+            margin-top: 20px;
+        }
+
+        .description h3 {
+            font-size: 18px;
+            color: #3c1421;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light ">
+        <a class="navbar-brand" href="D:\Websites\Bootstrap\Sassy\Anniversary.html">Our Love Story</a>
+    </nav>
+
+    <div class="full-screen-image">
+        <div class="centered-text">Happy 2 Years Sasi🤍</div>
+        <h6 class="centered-text-2">Here’s to us, our journey, and our future.</h6>
+    </div>
+
+    <div class="journey-bar">Our Journey</div>
+
+    <section class="timeline container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <a href="images/First_Meet.jpg" target="_blank">
+                        <img src="images/First_Meet.jpg" class="card-img-top" alt="First Meet">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">First Meet 14-09-22</h5>
+                        <p class="card-text">Remember when we first met? I knew from that moment you were special to me.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <a href="images/First-Date.jpg" target="_blank">
+                        <img src="images/First-Date.jpg" class="card-img-top" alt="First Date">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">Our First Date 02-10-2022</h5>
+                        <p class="card-text">Do you remember our first date in Decathlon when you holded my hand for the
+                            first time? – it was a dream come true to me!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <a href="images/First-Bike-Ride.jpeg" target="_blank">
+                        <img src="images/First-Bike-Ride.jpeg" class="card-img-top" alt="First Date">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">Our First Bike Ride 02-10-2022</h5>
+                        <p class="card-text">The thrill of riding together for the first time was unforgettable.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <a href="images/Our-First-Movie-Date.jpg" target="_blank">
+                        <img src="images/Our-First-Movie-Date.jpg" class="card-img-top" alt="First Date">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">Our First Movie Date 16-10-2022</h5>
+                        <p class="card-text">Do you think I even watched the film? I was busy in loving the secret lover
+                            of mine.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <a href="images/Beginning-of-our-Love.jpg" target="_blank">
+                        <img src="images/Beginning-of-our-Love.jpg" class="card-img-top" alt="Beginning of Our Love">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">Beginning of Our Love 07-11-2022</h5>
+                        <p class="card-text">The day it all started. The day I kissed you in your cheek for the first
+                            time. The day I confessed my love for you.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <a href="images/First-Date-as-Couple.jpg" target="_blank">
+                        <img src="images/First-Date-as-Couple.jpg" class="card-img-top" alt="First-Date-as-Couple">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">Our First Date as Couple 20-07-2022</h5>
+                        <p class="card-text">Every moment spent together was the beginning of something beautiful.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <a href="images/First-Visit.jpg" target="_blank">
+                        <img src="images/First-Visit.jpg" class="card-img-top" alt="My First Ever Visit to Our Home">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">My First Ever Visit to Our Home 13-02-2023</h5>
+                        <p class="card-text">Walking through the door felt like stepping into a dream come true. I just
+                            cannot wait to be a part of it forver.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <a href="images/First Day as Couple in our Home.jpg" target="_blank">
+                        <img src="images/First Day as Couple in our Home.jpg" class="card-img-top"
+                            alt="The Day We Lived as a Couple in Our Home">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">The Day We Lived as a Couple in Our Home 03-05-2023</h5>
+                        <p class="card-text">Every Second still flashes in front of my eyes. Sharing our lives under our
+                            roof made every second feel like a dream.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <a href="images/First-Date-at_Home.jpg" target="_blank">
+                        <img src="images/First-Date-at_Home.jpg" class="card-img-top" alt="First Date at our Home">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">First Date in Our Home 04-05-2023</h5>
+                        <p class="card-text">Creating memories in our home is all I ever wanted</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <a href="images/Videocall.jpg" target="_blank">
+                        <img src="images/Videocall.jpg" class="card-img-top" alt="Your Favourite Picture of Mine">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">Our First Ever Video Call 14-12-2022</h5>
+                        <p class="card-text">That way you adored me always.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <a href="images/Your-Favourite-Picture-of-Mine.jpg" target="_blank">
+                        <img src="images/Your-Favourite-Picture-of-Mine.jpg" class="card-img-top"
+                            alt="Your Favourite Picture of Mine">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">Your Favourite Picture of Mine 16-07-2023</h5>
+                        <p class="card-text">That smile of mine captures your presence in my life.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <a href="images/First_Achievement.jpg" target="_blank">
+                        <img src="images/First_Achievement.jpg" class="card-img-top"
+                            alt="Our First Achievement Together">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">Our First Achievement Together 10-05-2023</h5>
+                        <p class="card-text">Do you remember how we achieved it?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <a href="images/Unforgettable-Day.jpg" target="_blank">
+                        <img src="images/Unforgettable-Day.jpg" class="card-img-top"
+                            alt="The Day We Can Never Ever Forget">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">The Day We Can Never Ever Forget 12-01-2023</h5>
+                        <p class="card-text">Some days are etched in our hearts forever. This day is one among them.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <a href="images/Our-First-Ever-Temple-Date.jpg" target="_blank">
+                        <img src="images/Our-First-Ever-Temple-Date.jpg" class="card-img-top"
+                            alt="Our First Ever Temple Date">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">Our First Ever Temple Date 13-07-2023</h5>
+                        <p class="card-text">Finding peace together to stay together happily ever after.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <a href="images/First-Ever-Coffee-Date.jpg" target="_blank">
+                        <img src="images/First-Ever-Coffee-Date.jpg" class="card-img-top"
+                            alt="Our First Ever Coffee Date">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">Our First Ever Coffee Date 19-06-2023</h5>
+                        <p class="card-text">The day Sasi came to a coffee date just to work for Kshitij. Haha Just
+                            Kidding.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <a href="images/My-Stupidness.jpg" target="_blank">
+                        <img src="images/My-Stupidness.jpg" class="card-img-top" alt="The How Stupid Can I be">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">The How Stupid Can I be Moment</h5>
+                        <p class="card-text">That day I wrote 'Neha Loves Sasi' with my blood was one of my silliest yet
+                            sweetest moments—just a testament to how deeply I adore you!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <a href="images/First-Gift.jpg" target="_blank">
+                        <img src="images/First-Gift.jpg" class="card-img-top" alt="My First Ever Gift">
+                    </a>
+                    <div class="card-body">
+                        <h5 class="card-title">My First Ever Gift</h5>
+                        <p class="card-text">I just cannot forget how much happiness, and proudness this illustration
+                            made me see in you.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="journey-bar">Our Video Gallery of Memories</div>
+
+    <section class="video-gallery container">
+        <div class="video-scroll">
+            <div class="video-item">
+                <video controls onclick="openModal(this)">
+                    <source src="Videos/01.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="description">
+                    <h3>Your Felicitation</h3>
+                </div>
+            </div>
+            <div class="video-item">
+                <video controls onclick="toggleFullScreen(this)">
+                    <source src="Videos/02.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="description">
+                    <h3>Your Craziness</h3>
+                </div>
+            </div>
+            <div class="video-item">
+                <video controls onclick="toggleFullScreen(this)">
+                    <source src="Videos/03.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="description">
+                    <h3>Sasi❌ Batman ✔️</h3>
+                </div>
+            </div>
+            <div class="video-item">
+                <video controls onclick="toggleFullScreen(this)">
+                    <source src="Videos/04.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="description">
+                    <h3>When you told me you love my voice</h3>
+                </div>
+            </div>
+            <div class="video-item">
+                <video controls onclick="toggleFullScreen(this)">
+                    <source src="Videos/05.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="description">
+                    <h3>When I was making coffee for us</h3>
+                </div>
+            </div>
+            <div class="video-item">
+                <video controls onclick="toggleFullScreen(this)">
+                    <source src="Videos/06.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="description">
+                    <h3>When I was drinking coffee</h3>
+                </div>
+            </div>
+            <div class="video-item">
+                <video controls onclick="toggleFullScreen(this)">
+                    <source src="Videos/07.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="description">
+                    <h3>When we were together</h3>
+                </div>
+            </div>
+            <div class="video-item">
+                <video controls onclick="toggleFullScreen(this)">
+                    <source src="Videos/08.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="description">
+                    <h3>When we went to a park date -1</h3>
+                </div>
+            </div>
+            <div class="video-item">
+                <video controls onclick="toggleFullScreen(this)">
+                    <source src="Videos/09.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="description">
+                    <h3>When we went to a park date -2</h3>
+                </div>
+            </div>
+            <div class="video-item">
+                <video controls onclick="toggleFullScreen(this)">
+                    <source src="Videos/10.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="description">
+                    <h3>When we went to a park date -3</h3>
+                </div>
+            </div>
+            <div class="video-item">
+                <video controls onclick="toggleFullScreen(this)">
+                    <source src="Videos/11.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="description">
+                    <h3>Video Title 11</h3>
+                </div>
+            </div>
+            <div class="video-item">
+                <video controls onclick="toggleFullScreen(this)">
+                    <source src="Videos/12.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="description">
+                    <h3>Video Title 12</h3>
+                </div>
+            </div>
+            <div class="video-item">
+                <video controls onclick="toggleFullScreen(this)">
+                    <source src="Videos/13.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="description">
+                    <h3>Video Title 13</h3>
+                </div>
+            </div>
+            <div class="video-item">
+                <video controls onclick="toggleFullScreen(this)">
+                    <source src="Videos/14.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="description">
+                    <h3>Video Title 14</h3>
+                </div>
+            </div>
+            <div class="video-item">
+                <video controls onclick="toggleFullScreen(this)">
+                    <source src="Videos/15.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="description">
+                    <h3>Video Title 15</h3>
+                </div>
+            </div>
+            <div class="video-item">
+                <video controls onclick="toggleFullScreen(this)">
+                    <source src="Videos/16.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="description">
+                    <h3>Video Title 16</h3>
+                </div>
+            </div>
+            <div class="video-item">
+                <video controls onclick="toggleFullScreen(this)">
+                    <source src="Videos/17.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="description">
+                    <h3>Video Title 17</h3>
+                </div>
+            </div>
+            <div class="video-item">
+                <video controls onclick="toggleFullScreen(this)">
+                    <source src="Videos/18.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="description">
+                    <h3>Video Title 18</h3>
+                </div>
+            </div>
+            <div class="video-item">
+                <video controls onclick="toggleFullScreen(this)">
+                    <source src="Videos/19.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="description">
+                    <h3>Video Title 19</h3>
+                </div>
+            </div>
+            <div class="video-item">
+                <video controls onclick="toggleFullScreen(this)">
+                    <source src="Videos/20.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="description">
+                    <h3>Video Title 20</h3>
+                </div>
+            </div>
+            <div class="video-item">
+                <video controls onclick="toggleFullScreen(this)">
+                    <source src="Videos/21.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="description">
+                    <h3>Video Title 21</h3>
+                </div>
+            </div>
+            <div class="video-item">
+                <video controls onclick="toggleFullScreen(this)">
+                    <source src="Videos/22.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="description">
+                    <h3>Video Title 22</h3>
+                </div>
+            </div>
+            <div class="video-item">
+                <video controls onclick="toggleFullScreen(this)">
+                    <source src="Videos/23.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="description">
+                    <h3>Video Title 23</h3>
+                </div>
+            </div>
+            <div class="video-item">
+                <video controls onclick="toggleFullScreen(this)">
+                    <source src="Videos/24.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="description">
+                    <h3>Video Title 24</h3>
+                </div>
+            </div>
+            <div class="video-item">
+                <video controls onclick="toggleFullScreen(this)">
+                    <source src="Videos/25.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="description">
+                    <h3>Video Title 25</h3>
+                </div>
+            </div>
+            <div class="video-item">
+                <video controls onclick="toggleFullScreen(this)">
+                    <source src="Videos/26.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="description">
+                    <h3>Video Title 26</h3>
+                </div>
+            </div>
+            <div class="video-item">
+                <video controls onclick="toggleFullScreen(this)">
+                    <source src="Videos/27.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="description">
+                    <h3>Video Title 27</h3>
+                </div>
+            </div>
+            <div class="video-item">
+                <video controls onclick="toggleFullScreen(this)">
+                    <source src="Videos/28.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="description">
+                    <h3>Video Title 28</h3>
+                </div>
+            </div>
+            <div class="video-item">
+                <video controls onclick="toggleFullScreen(this)">
+                    <source src="Videos/29.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="description">
+                    <h3>Video Title 29</h3>
+                </div>
+            </div>
+            <div class="video-item">
+                <video controls onclick="toggleFullScreen(this)">
+                    <source src="Videos/30.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="description">
+                    <h3>Video Title 30</h3>
+                </div>
+            </div>
+            <div class="video-item">
+                <video controls onclick="toggleFullScreen(this)">
+                    <source src="Videos/31.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="description">
+                    <h3>Video Title 31</h3>
+                </div>
+            </div>
+            <div class="video-item">
+                <video controls onclick="toggleFullScreen(this)">
+                    <source src="Videos/32.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="description">
+                    <h3>Video Title 32</h3>
+                </div>
+            </div>
+            <div class="video-item">
+                <video controls onclick="toggleFullScreen(this)">
+                    <source src="Videos/33.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="description">
+                    <h3>Video Title 33</h3>
+                </div>
+            </div>
+            <div class="video-item">
+                <video controls onclick="toggleFullScreen(this)">
+                    <source src="Videos/34.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="description">
+                    <h3>Video Title 34</h3>
+                </div>
+            </div>
+            <div class="video-item">
+                <video controls onclick="toggleFullScreen(this)">
+                    <source src="Videos/35.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="description">
+                    <h3>Video Title 35</h3>
+                </div>
+            </div>
+            <div class="video-item">
+                <video controls onclick="toggleFullScreen(this)">
+                    <source src="Videos/36.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="description">
+                    <h3>Video Title 36</h3>
+                </div>
+            </div>
+            <div class="video-item">
+                <video controls onclick="toggleFullScreen(this)">
+                    <source src="Videos/37.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="description">
+                    <h3>Video Title 37</h3>
+                </div>
+            </div>
+            <div class="video-item">
+                <video controls onclick="toggleFullScreen(this)">
+                    <source src="Videos/38.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="description">
+                    <h3>Video Title 38</h3>
+                </div>
+            </div>
+            <div class="video-item">
+                <video controls onclick="toggleFullScreen(this)">
+                    <source src="Videos/39.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="description">
+                    <h3>Video Title 39</h3>
+                </div>
+            </div>
+            <div class="video-item">
+                <video controls onclick="toggleFullScreen(this)">
+                    <source src="Videos/40.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="description">
+                    <h3>Video Title 40</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <div class="journey-bar">Do you remember when it was our 6 Month Anniversary?</div>
+
+    <div class="bar">
+        <a class="btn" href="https://neharikasasivatsal.w3spaces.com/">Happy 6 Months</a>
+    </div>
+
+    <section class="container py-5 text-center">
+        <h2>Countdown to Our Next Adventure🤍</h2>
+        <p id="countdown" class="lead"></p>
+    </section>
+
+    <div class="footer">
+        <p>&copy; 2024 - With love, Neha🤍</p>
+        <p>"I love you more every day🤍"</p>
+    </div>
+
+    <script>
+        function toggleFullScreen(video) {
+            if (document.fullscreenElement) {
+                document.exitFullscreen();
+            } else {
+                video.requestFullscreen();
+                video.play();
+            }
+        }
+
+        document.addEventListener('fullscreenchange', () => {
+            console.log('Fullscreen changed');
+        });
+    </script>
+
+
+
+    <script>
+        const countdownDate = new Date("Oct 24, 2025 00:00:00").getTime();
+        const countdownElement = document.getElementById("countdown");
+
+        const interval = setInterval(function () {
+            const now = new Date().getTime();
+            const distance = countdownDate - now;
+
+            const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            countdownElement.innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+
+            if (distance < 0) {
+                clearInterval(interval);
+                countdownElement.innerHTML = "The Adventure Begins!";
+            }
+        }, 1000);
+    </script>
+
+    <a href="#" class="scroll-to-top" id="scrollToTop">❤️</a>
+
+    <script>
+        window.onscroll = function () {
+            const scrollToTopButton = document.getElementById("scrollToTop");
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                scrollToTopButton.style.display = "block";
+            } else {
+                scrollToTopButton.style.display = "none";
+            }
+        };
+        document.getElementById("scrollToTop").onclick = function (event) {
+            event.preventDefault();
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        };
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
